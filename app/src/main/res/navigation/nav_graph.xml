@@ -15,4 +15,14 @@
         android:name="com.itproger.lovecalculator.fragments.CompatibilityFragment"
         android:label="fragment_compatibility"
         tools:layout="@layout/fragment_compatibility" />
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="com.itproger.lovecalculator.sharepreferences.board.OnBoardFragment"
+        android:label="fragment_on_board_fragment"
+        tools:layout="@layout/fragment_on_board_fragment" />
+    <activity
+        android:id="@+id/historyActivity"
+        android:name="com.itproger.lovecalculator.activity.HistoryActivity"
+        android:label="activity_history"
+        tools:layout="@layout/activity_history" />
 </navigation>

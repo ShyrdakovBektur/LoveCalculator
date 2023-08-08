@@ -1,5 +1,6 @@
-package com.itproger.lovecalculator.retrofit
+package com.itproger.lovecalculator.retrofit.api
 
+import com.itproger.lovecalculator.retrofit.LoveModel
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header
